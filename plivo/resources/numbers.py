@@ -94,7 +94,6 @@ class Numbers(PlivoResourceInterface):
              renewal_date__gte=None,
              renewal_date__gt=None,
              cnam_lookup=None,
-             cnam=None,
              limit=20,
              offset=0):
         return self.client.request(
